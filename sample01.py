@@ -7,5 +7,8 @@ root.geometry("250x100")
 #Runのボタン
 run_button = tk.Button(root,text="Run")
 run_button.place(x=100,y=30)
-#ウインドウ状態の維持
 root.mainloop()
+
+def run_func():
+    print("Hello!!")
+

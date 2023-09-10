@@ -9,6 +9,3 @@ run_button = tk.Button(root,text="Run")
 run_button.place(x=100,y=30)
 root.mainloop()
 
-def run_func():
-    print("Hello!!")
-

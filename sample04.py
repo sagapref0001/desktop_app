@@ -1,4 +1,7 @@
 import os
 
 #フォルダの作成
-os.mkdir("newfolder/subfolder")
+try:
+    os.mkdir("newfolder")
+except:
+    print("error")

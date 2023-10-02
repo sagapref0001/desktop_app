@@ -10,7 +10,7 @@ config["Run1"] = {
 config["Run2"] = {
     "app1": r"C:\Windows\System32\notepad.exe",
     "app2": r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
-    "app3": r"C:\Windows\System32\mspaint.exe"
+    "app3": r"C:\Program Files\WindowsApps\Microsoft.Paint_11.2304.33.0_x64__8wekyb3d8bbwe\PaintApp\mspaint.exe"
 }
 
 # 設定ファイルへの書込み

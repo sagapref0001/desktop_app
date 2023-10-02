@@ -22,3 +22,4 @@ config.read("config.ini")
 # 設定ファイルから値の取得
 read_base = config["Run1"]
 print(read_base.get("app1"))
+

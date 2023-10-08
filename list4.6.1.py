@@ -39,4 +39,8 @@ menubar.add_cascade(label="Help",menu=helpmenu)
 # >Manual
 helpmenu.add_command(label="Manual")
 
+# 定型文のボタン設置
+fp_button = tk.Button(root,text="Fixed Phrase")
+fp_button.pack(padx=10,pady=10,ipady=5,fill=tk.X)
+
 root.mainloop()

@@ -17,8 +17,9 @@ frame.pack(padx=20,pady=5,side=tk.BOTTOM)
 
 # コンボボックス
 extensions = [".docx",".py",".txt",".xlsx",".zip"]
-cb = ttk.Combobox(frame,values=extensions)
+cb = ttk.Combobox(frame,values=extensions,state="readonly")
 cb.pack(side=tk.LEFT)
+cb.current(0)
 
 # 参照ボタン
 browse_button = tk.Button(frame,text="Browse...")

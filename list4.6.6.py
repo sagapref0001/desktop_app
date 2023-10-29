@@ -1,5 +1,12 @@
 import tkinter as tk
 from tkinter import ttk
+import configparser
+
+# 設定ファイル用のインスタンス
+config = configparser.ConfigParser()
+# 読み込むiniファイルを指定
+config.read("settings.ini")
+
 
 root = tk.Tk()
 
